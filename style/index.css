@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Nunito+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+html {
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #1B333B;
+    text-decoration-color: #F9F8F2;
+    grid-area: header;
+}
+
+#menu ul{
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+    background-color: transparent;
+    list-style:none;
+    float: right
+}
+
+#menu ul li { 
+    display: inline;
+    margin-right: 5px;  
+}
+
+.btn-header {
+    background-color: transparent;
+    border: 2px solid #F9F8F2;
+    padding: 5px;
+    border-radius: 10px;
+    color: #F9F8F2;
+}
+
+
