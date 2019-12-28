@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Open+Sans|Poppins|Rubik&display=swap');
+
+#main {
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    display: grid;
+}
+
+#mural {
+    height: 1000px;
+    width: 80%;
+    background-color: #fff;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    box-shadow: 12px 12px #38003c;
+    display: block;
+    border-radius: 5px;
+}
+
+#tittle {
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 20px;
+    border-bottom: 3px solid #38003c;
+    background-color: #e90052;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#cards {
+    display: grid;
+    justify-content: center;
+}
+
+.grid-template-columns {
+    grid-template-columns: 230px 230px 230px 230px;
+    margin: 20px;
+}
+
+#card-pet{
+    margin: 20px;
+    height: 300px;
+    background-color: #e90052;
+    border-radius: 5px;
+
+}
+
+#nome-espaco {
+    height: 49%;
+    width: 100%;
+    display: table;
+}
+
+#nome-petiano {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+#divisao-espaco {
+    height: 2%;
+    background-color: #38003c;
+}
+
+#sociais-espaco {
+    height: 49%;
+    width: 100%;
+    display: table;
+}
+
+#sociais-petiano {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#social-media {
+    font-size: 32px;
+    margin: 0px 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#social-media:hover{
+    color: #38003c;
+    transition: 0.3s;
+}
