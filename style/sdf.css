@@ -1,0 +1,105 @@
+
+#espaco-horario {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#horario {
+    height: auto;
+    width: 80%;
+    background-color: #e90052;
+    margin: 20px 0px;
+    display: grid;
+    border-radius: 5px;
+    box-shadow: 5px 5px #38003c;
+}
+
+#tabela {
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-template-rows-1 {
+    grid-template-rows: 1fr 7fr;
+}
+
+.item {
+    display: grid;
+}
+
+.subgrid-horas {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.subitem {
+    border: 1.5px solid #38003c;
+    background: #04f5ff;
+    display: table;
+}
+
+.subitem-h {
+    border: 1.5px solid #38003c;
+    display: table;
+}
+
+.subgrid-segunda {
+	display: grid;
+	grid-template-rows: 1fr 1fr 2fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.subgrid-terca {
+	display: grid;
+	grid-template-rows: 2fr 2fr 2fr 1fr;
+    grid-gap: 0px;
+}
+
+.subgrid-quarta {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
+    grid-gap: 0px;
+}
+
+.subgrid-quinta {
+	display: grid;
+	grid-template-rows: 4fr 3fr;
+    grid-gap: 0px;
+}
+
+.subgrid-sexta {
+	display: grid;
+	grid-template-rows: 1fr;
+    grid-gap: 0px;
+}
+
+.subgrid-content {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #38003c;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+.subgrid-content-h {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+

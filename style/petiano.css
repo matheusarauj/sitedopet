@@ -8,7 +8,7 @@
 }
 
 #mural {
-    height: 1000px;
+    height: auto;
     width: 80%;
     background-color: #fff;
     margin-top: 70px;
@@ -16,6 +16,7 @@
     box-shadow: 12px 12px #38003c;
     display: block;
     border-radius: 5px;
+    justify-content: center;
 }
 
 #tittle {
@@ -50,7 +51,7 @@
 }
 
 #nome-espaco {
-    height: 49%;
+    height: 30%;
     width: 100%;
     display: table;
 }
@@ -70,7 +71,7 @@
 }
 
 #sociais-espaco {
-    height: 49%;
+    height: 24%;
     width: 100%;
     display: table;
 }
@@ -92,3 +93,13 @@
     color: #38003c;
     transition: 0.3s;
 }
+
+#img-espaco{
+    margin-top: 5px;
+    height: 40%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+

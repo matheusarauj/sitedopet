@@ -1,0 +1,94 @@
+#main {
+    height: auto;
+    width: 100%;
+    display: grid;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 33fr 0.5fr 33fr 0.5fr 33fr;
+}
+
+#home {
+    display: grid;
+    height: auto;
+    width: 100%;
+}
+
+.item-wall {
+    height: 620px;
+}
+
+.div-wall {
+    background-color: #38003c;
+    height: 620px;
+}
+
+#pesquisa {
+    background-color: #00ff85;
+    display: grid;
+}
+
+#ensino {
+    background-color: #e90052;
+    display: grid;
+}
+
+#extensao {
+    background-color: #04f5ff;
+    display: grid;
+}
+
+.div-pex{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    height: 100%;
+}
+
+.nome-pex {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nome {
+    writing-mode: sideways-lr;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    height: 100%;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.icon-pex {
+    height: 100%;
+    display: table;
+}
+
+#purple {
+    color: #38003c;
+}
+
+#white {
+    color: #fff;
+}
+
+#icon-search {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    padding-right: 40px;
+    color: #38003c;
+}
+
+#icon-teach {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    padding-right: 40px;
+    color: #fff;
+}
