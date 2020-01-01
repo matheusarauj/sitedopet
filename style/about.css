@@ -1,0 +1,135 @@
+#main {
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    display: grid;
+}
+
+#sec-tittle {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    background-color: transparent;
+    justify-items: center
+}
+
+#card-tittle {
+    display: table;
+    width: 50%;
+    height: 100px;
+    background-color: #e90052;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #38003c;
+}
+
+#tittle {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#sec-cards {
+    height: auto;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+#mural-cards {
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.item-card {
+    margin: 20px 5px;
+    height: 200px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 49fr 2fr 49fr;
+    box-shadow: 5px 5px #38003c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon-card {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: table;
+}
+
+.div-card {
+    background-color: #38003c;
+    height: 100%;
+    width: 100%;
+}
+
+.text-card {
+    background-color: #e90052;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: table;
+}
+
+.area-icon {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#icon {
+    font-size: 80px;
+    color: #38003c;
+}
+
+.area-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+
+.item-card:hover {
+    box-shadow: 5px 5px #fff;
+    transition: 0.3s
+}
+
+.item-card:hover > .div-card {
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.item-card:hover > .icon-card {
+    background-color: #38003c;
+    transition: 0.3s;
+}
+
+.item-card:hover  #icon {
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+.item-card:hover > .text-card {
+    background-color: #38003c;
+    transition: 0.3s;
+}
+
+
