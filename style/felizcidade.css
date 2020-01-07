@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Open+Sans|Poppins|Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    display: grid;
+}
+
+
+.grid {
+	display: grid;
+	grid-template-columns: 33fr 0.5fr 33fr 0.5fr 33fr;
+}
+
+#home {
+    display: grid;
+    height: auto;
+    width: 100%;
+}
+
+.item-wall {
+    height: 620px;
+}
+
+.div-wall {
+    background-color: #38003c;
+    height: 620px;
+}
+
+
+.nome {
+    writing-mode: sideways-lr;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    height: 100%;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.icon-pex {
+    height: 100%;
+    display: table;
+}
+
+#purple {
+    color: #38003c;
+}
+
+#white {
+    color: #fff;
+}
+
+#icon-search {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    padding-right: 40px;
+    color: #38003c;
+}
+
+#icon-teach {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    padding-right: 40px;
+    color: #fff;
+}
+
+.div-main{
+    height: 5px;
+    width: 100%;
+    background-color: #38003c;
+}
+
+.grid-question-1 {
+    display: grid;
+    grid-template-columns: 39.5fr 0.5fr 60fr;
+    height: 260px;
+}
+
+.div-question {
+    height: 100%;
+    background-color: #38003c;
+}
+
+.item-question {
+    height: 100%;
+}
+
+#question-1 {
+    background-color: #04f5ff;
+    color: #38003c;
+}
+
+#answer-1 {
+    background-color: #fff;
+    color: #38003c;
+}
+
+.grid-question-2 {
+    display: grid;
+    grid-template-columns: 60fr 0.5fr 39.5fr;
+    height: 350px;
+}
+
+#question-2 {
+    background-color: #fff;
+    color: #38003c;
+}
+
+#answer-2 {
+    background-color: #e90052;
+    color: #fff;
+}
+
+.question {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.text {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.text-answer {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 40px;
+}
