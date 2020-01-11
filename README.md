@@ -15,5 +15,5 @@ O objetivo deste website, além ilustrar a representação tutorial, é mostrar 
 - **Acervo:** Informações sobre ex-integrantes e ex-tutores que fizeram parte da história deste grupo;
 
 ## Implementação:
-Recomenda-se fortemente que a implementação deste protótipo e de suas futura manuntenções seja realizada em **VanillaJS** *(html + css + javascript)* pelo motivo que a maioria do corpo que integra o PET-Computação pertence a períodos iniciais do curso, e por isto, a universalização dos conhecimentos das páginas que compõem o website deve ser mantida. *(Ou seja, sem frameworks frontend :D)*
+Recomenda-se fortemente que a implementação deste protótipo e de suas futura manuntenções seja realizada em **VanillaJS** *(html + css + javascript)* pelo motivo que a maioria do corpo que integra o PET-Computação pertence a períodos iniciais do curso, e por isto, a universalização dos conhecimentos das páginas que compõem o website deve ser mantida. *(Ou seja, sem frameworks frontend :D)* Importante visualizar as Issues para saber o andamento do desenvolvimento.
 
